@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form with js</title>
+</head>
+
+<body>
+
+<div class="container">
+
+        <h1>Please Login</h1>
+
+    <form onsubmit="return submitForm()">
+
+        <input type="email" id="usermail" class="col-1" placeholder="Email">
+        <span id="msg3" class="error" style="color: red;"></span>
+        <br>
+
+        <input type="password" id="password" class="col-1" placeholder="password" >
+        <span id="msg4" class="error" style="color:red;"></span><br>
+        
+        
+        <input type="submit" value="Login" id="usersubmit"><br>
+
+        <p class="p-1">Forget <a href="">username/password?</a></p>
+        <p class="p-2">Create an account? </span><a href="">Sign up</a></p>
+       
+    </form>
+
+</div>
+   
+  
+
+   
+</body>
+<script src="script.js"></script>
+</html>
